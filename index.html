@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="header">
+        <ul class="block1">
+            <li>ROCK</li>
+            <li>PAPER</li>
+            <li>SCISSORS</li>
+        </ul>
+        <div class="block2">
+            <div class="score_card">
+                <span>COMPUTER</span> 
+                <span>SCORE</span>
+                <div class="score_number computer_score">0</div>
+            </div>
+            <div class="score_card"> 
+                <span>YOUR</span> 
+                <span>SCORE</span>
+                <div class="score_number user_score">0</div>
+            </div> 
+        </div>
+    </div>
+    <div class="content">
+        <div class="win_gen">
+            <p class="you_picked">You Picked</p>
+            <p class="pc_picked">Pc Picked</p>
+        </div>
+        <div class="user_picked">
+            <div class="triangle_wrap">
+                <div class="line3 line">
+                    <img src="Line 3.png" alt="">
+                </div>
+                <div class="line1 line">
+                    <img src="Line 1.png" alt="">
+                </div>
+                <div class="line2 line">
+                    <img src="Line 2.png" alt="">
+                </div>
+            </div>
+            <div class="checker">
+                <div class="check1 check">
+                    <img src="blue_circle.png" alt="">
+                    <div class="rockk">
+                        <img src="rock.png" alt="">
+                    </div>
+                </div>
+                <div class="check2 check">
+                    <img src="yellow_circle.png" alt="">
+                    <div class="paperrr">
+                        <img src="paper.png" alt="">
+                    </div>
+                </div>
+                <div class="check3 check">
+                    <img class="internal" src="purple_circle.png" alt="">
+                    <div class="scisssorr">
+                        <img class="internal" src="scissor.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="PC">
+                <div class="checkk1 common">
+                    <img src="blue_circle.png" alt="">
+                    <div class="roc">
+                        <img src="rock.png" alt="">
+                    </div>
+                </div>
+                <div class="checkk2 common">
+                    <img src="yellow_circle.png" alt="">
+                    <div class="pap">
+                        <img src="paper.png" alt="">
+                    </div>
+                </div>
+                <div class="checkk3 common">
+                    <img class="internal" src="purple_circle.png" alt="">
+                    <div class="sci">
+                        <img class="internal" src="scissor.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="win_text">
+                <h1 class="winner">YOU WIN</h1>
+                <div class="inner">
+                    <h3 class="winner_a">AGAINST PC</h3>
+                    <button class="play">PLAY AGAIN</button>
+                </div>
+            </div>
+
+            <div class="concentric_circle">
+                <div class="conc_crc">
+                    <img src="green_circle_inner.png" alt="" class="green_circle green_circle1">
+                    <img src="green_circle_mid.png" alt="" class="green_circle green_circle2">
+                    <img src="green_circle_outer.png" alt="" class="green_circle green_circle3">
+                </div>
+            </div>
+        </div>
+        <div class="trophy_wrap">
+            <div class="trophy">
+                <div class="wrap_again">
+                    <img class="str" src="stars.png" alt="">
+                    <div class="trph">
+                        <img class="str1" src="Trophy.png" alt="">
+                    </div>
+                </div> 
+                <h1 class="hurray">HURRAY!!!</h1>
+                <h1 class="yay">You won the game</h1>
+                <div class="yoo">
+                    <button class="play yooo">PLAY AGAIN</button>
+                </div>
+            </div>
+        </div>
+        <div class="rule_wrap">
+            <div class="rule_box">
+                <button class="hideous" onclick="hiding_rules();">H</button>
+                <img class="ruleeee" src="rules.png" alt="">
+            </div>
+        </div>
+    </div>   
+    <div class="rule_button">
+        <button class="rules" onclick="display_rules();">RULES</button>
+        <button class="nxt">NEXT</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
